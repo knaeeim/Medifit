@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#navbar{
+    background-color: #EEEDE7;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+#logo{
+    height: 30px;
+    width: 30px;
+}
+
+#list-items{
+    display: flex;
+    gap: 10px;
+}
+
+#list-items > li {
+    list-style: none;
+}
+
+#list-items > li > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#icons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner{
+    background-color: #E8E6DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 800px;
+}
+
+#banner-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #503217;
+    color: white;
+    gap: 10px;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#banner-img{
+    height: 616px;
+    width: 567px;
+}
+
+#banner-img > img{
+    height: 100%;
+    width: 100%;
+}
+
+#banner-heading{
+    color: #503217;
+    font-size: 80px;
+}
+
+#banner-text{
+    width: 541px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+#banner-para{
+    color: #8F7D6A;
+    font-size: 18px;
+}
